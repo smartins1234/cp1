@@ -16,10 +16,23 @@ html {
   }
   
   /* The Masonry Brick */
+  .item {
+      border-bottom: 2px solid lightgray;
+      margin: 0 0 1.5em;
+      padding: 0 0 .5em;
+  }
+  
   .item img {
     background: #fff;
     padding: 1em;
-    margin: 0 0 1.5em;
+    margin: 0;
+    max-width: 240px;
+  }
+
+  .item p {
+    background: #fff;
+    padding: 0 1em 1em 1em;
+    margin: 0;
     max-width: 240px;
   }
   
