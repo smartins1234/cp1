@@ -153,3 +153,7 @@ input.submit {
 form {
   line-height: 2em;
 }
+
+.navbar-brand img {
+  border-radius: 50%;
+}
