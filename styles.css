@@ -8,32 +8,50 @@ html {
     box-sizing: inherit;
   }
 
+.page-content {
+  margin: 50px; 50px 0 50px;
+}
+
   /* The Masonry Container */
   .masonry {
-    margin: 1.5em auto;
+    margin: 50px 50px 0 50px;
     max-width: 1000px;
     column-gap: 1.5em;
   }
 
   /* The Masonry Brick */
   .item {
-      border-bottom: 2px solid lightgray;
       margin: 0 0 1.5em;
-      padding: 0 0 .5em;
+      padding: 0;
+      max-width: 240px;
+      background-color: lightgray;
+      border-radius: 5px;
   }
 
   .item img {
-    background: #fff;
-    padding: 1em;
+    padding-bottom: .5em;
     margin: 0;
-    max-width: 240px;
+    width: 100%;
   }
 
   .item p {
-    background: #fff;
-    padding: 0 1em 1em 1em;
+    padding: 0 .5em .5em .5em;
     margin: 0;
-    max-width: 240px;
+    width: 100%;
+  }
+
+  .item i {
+    color: #ad1a1a;
+  }
+
+  .icon {
+    width: 100px;
+    border-radius: 50%;
+    margin: 20px;
+  }
+
+  .description {
+    width: 65%;
   }
 
   /* Masonry on large screens */
@@ -122,4 +140,16 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+input {
+  height: 1.5em;
+}
+
+input.submit {
+  height: 2.1em;
+}
+
+form {
+  line-height: 2em;
 }
