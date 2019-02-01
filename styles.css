@@ -229,3 +229,8 @@ form {
   font-size: 2em;
   margin-left: 50px;
 }
+
+.navbar-toggler {
+  background-color: #91AA9D;
+  border-radius: .5rem;
+}
