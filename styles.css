@@ -16,6 +16,15 @@ html {
     box-sizing: inherit;
   }
 
+body {
+  background-color: #193441;
+  font-family: "Ubuntu Mono"
+}
+
+p, h1, form {
+  color: #FCFFF5;
+}
+
 .page-content {
   margin: 50px; 50px 0 50px;
 }
@@ -32,7 +41,7 @@ html {
       margin: 0 0 1.5em;
       padding: 0;
       max-width: 240px;
-      background-color: lightgray;
+      background-color: #3E606F;
       border-radius: 5px;
   }
 
@@ -46,10 +55,11 @@ html {
     padding: 0 .5em .5em .5em;
     margin: 0;
     width: 100%;
+    color: #FCFFF5;
   }
 
   .item i {
-    color: #ad1a1a;
+    color: #e86969;
   }
 
   .icon {
@@ -60,7 +70,10 @@ html {
 
   .description {
     width: 65%;
-  }
+    background-color: #3E606F;
+    padding: 1em 1em 1.2em;
+    border-radius: .75em;
+}
 
   /* Masonry on large screens */
   @media only screen and (min-width: 1024px) {
@@ -128,11 +141,11 @@ html {
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: #a1c160;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px #a1c160;
 }
 
 input:checked + .slider:before {
@@ -152,10 +165,16 @@ input:checked + .slider:before {
 
 input {
   height: 1.5em;
+  border: none;
+  border-radius: .2em;
+  background-color: #FCFFF5;
 }
 
 input.submit {
   height: 2.1em;
+  background-color: #D1DBBD;
+  border-color: #D1DBBD;
+  border-radius: 2em;
 }
 
 form {
@@ -164,4 +183,32 @@ form {
 
 .navbar-brand img {
   border-radius: 50%;
+}
+
+.bg-light {
+  background-color: #193441!important;
+}
+
+.navbar-light .navbar-brand {
+  color: #FCFFF5;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #FCFFF5;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: #D1DBBD;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #D1DBBD;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: #91AA9D;
+}
+
+.navbar {
+  padding: 35px 50px 0;
 }
